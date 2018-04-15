@@ -8,8 +8,11 @@ and acheive >0.6 intersection over union. We use our trained model on images of 
 
 A result example from our neural net model can be seen below
 <!-- [](https://github.com/amirdel/stanfordHacks/blob/master/presentation/5million_param_model/test_thresh.png) -->
-![Alt text](/presentation/5million_param_model/test_thresh.png?raw=true "Optional Title")
+![threshold image](/presentation/5million_param_model/test_thresh.png?raw=true "Optional Title")
 
+The number of buildings in these threshold images are counted using by detecting the contected blobs in the
+images
+![threshold image](/presentation/counting_buildings.JPG?raw=true "Optional Title")
 
 
 <!-- ### How do I set it up? ### -->
