@@ -16,6 +16,7 @@ def myGenerator(file_paths, steps_per_epoch, BATCH_SIZE, INPUT_SHAPE):
                       iaa.Sharpen(alpha=(0, 0.1), lightness=(0.7, 1.3)),
                       iaa.ContrastNormalization((0.5, 1.2))],
                      random_order=True)
+    img_size = INPUT_SHAPE[0]
     while True:
         x_batch = np.empty((BATCH_SIZE, INPUT_SHAPE[0], INPUT_SHAPE[1], INPUT_SHAPE[2]))
         y_batch = np.empty((BATCH_SIZE, INPUT_SHAPE[0], INPUT_SHAPE[1], 1))
