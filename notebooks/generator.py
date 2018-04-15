@@ -23,7 +23,6 @@ def myGenerator(file_paths, steps_per_epoch, BATCH_SIZE, INPUT_SHAPE):
         for (ind, j) in enumerate(range(i*BATCH_SIZE, (i+1)*BATCH_SIZE)):
             # pick a random image
             f = np.random.choice(file_paths)
-            print(f)
             random_x = np.random.randint(0, 1500-img_size)
             random_y = np.random.randint(0, 1500-img_size)
             xb = np.array(Image.open(f))[random_x:random_x+img_size, random_y:random_y+img_size, :]
