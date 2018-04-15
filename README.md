@@ -7,7 +7,8 @@ and acheive >0.6 intersection over union. We use our trained model on images of 
  manmade disasters to estimate the number of buildings distroyed.
 
 A result example from our neural net model can be seen below
-[](https://github.com/amirdel/stanfordHacks/blob/master/presentation/5million_param_model/test_thresh.png)
+<!-- [](https://github.com/amirdel/stanfordHacks/blob/master/presentation/5million_param_model/test_thresh.png) -->
+![Alt text](/presentation/5million_param_model/test_thresh.png?raw=true "Optional Title")
 
 
 
